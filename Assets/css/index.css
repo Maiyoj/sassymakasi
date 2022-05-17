@@ -152,6 +152,20 @@ section.read:hover{
 
 
 }
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.client{
+    width: 300px;
+    height: 300px;
+}
+.client img{
+    width: 100%;
+    clip-path: circle();
+}
 
 
 
