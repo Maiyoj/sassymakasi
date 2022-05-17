@@ -5,15 +5,16 @@
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    background-color: white
+    background-color: white;
+    color: #FCB500;
 }
 
 .info{
-    margin-left: 1200px;
+    margin-left: 1000px;
     
 }
  .number{
-     margin-right: 20px;
+     margin-right: 10px;
  }
  label{
      font-size: 30px;
@@ -21,22 +22,36 @@
 /* styled list */
  nav> .list{
      background-color:#FCB500;
-     width: 40%;
-     position: relative;
-     padding: 20px;
-     margin-left: 500px;
-     
-    
+     width: 60%;
+     position: absolute;
+     padding: 10px;
+     margin-left: 300px;
+     margin-bottom: 200px;
     
  }
 
  .list ul{
      display: flex;
      justify-content: space-between;
+     padding-right: 30px;
+     list-style: none;
+
   
  }
- .list ul li a{
-   list-style-type: none;
+
+
+ .list> ul> li> a{
+ list-style-type: none;
    font-size: 20px;
    color: black;
+   text-decoration: none;
+   
+}
+
+
+/* body */
+.body{
+    background-color: black;
+    height: 300vh;
+    width: 100%;
 }
