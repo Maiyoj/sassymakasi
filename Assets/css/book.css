@@ -1,15 +1,11 @@
 
-nav{
-    background-color: #FCB500;
-}
-
 
 
 .information{
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    
+    background-color: white
 }
 
 .info{
@@ -22,3 +18,25 @@ nav{
  label{
      font-size: 30px;
  }
+/* styled list */
+ nav> .list{
+     background-color:#FCB500;
+     width: 40%;
+     position: relative;
+     padding: 20px;
+     margin-left: 500px;
+     
+    
+    
+ }
+
+ .list ul{
+     display: flex;
+     justify-content: space-between;
+  
+ }
+ .list ul li a{
+   list-style-type: none;
+   font-size: 20px;
+   color: black;
+}
