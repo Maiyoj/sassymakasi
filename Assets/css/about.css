@@ -1,0 +1,161 @@
+.salonHist {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+}
+
+.history > h1 {
+    margin-top: 40px;
+}
+
+.history >  p {
+    color: white;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.sal > img {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.button {
+    color: white;
+    background: #FCB500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px;
+    border-color: #FCB500;
+}
+
+.salonHist {
+    background-color: rgb(48, 41, 41);
+    margin-right: 150px;
+    margin-left: 50px;
+    padding-bottom: 80px;
+}
+
+.ourTeam{
+    background-color: rgb(53, 48, 48);
+    margin-right: 150px;
+    margin-left: 50px;
+}
+.ourTeam > h1 {
+    text-align: center;
+    color: #FCB500;
+}
+
+.ourTeam > h2 {
+    text-align: center;
+    color: #FCB500;
+}
+
+.theTeam1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-right: 200px;
+}
+
+
+.theTeam2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-right: 200px;
+    margin-left: 70px;
+}
+
+.Rodney {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Jenner {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.Katlyne {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Ann {
+    margin-right: 50px;
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Ann > p {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.Lisa {
+    margin-right: 50px;
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Jane {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.porto1-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.porto2-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    /* margin-top: 10px; */
+}
+
+ .braids{
+    bottom: -150;
+}
+
+.smile {
+    margin-top: 80px;
+}
+
+.smile > li {
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
