@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 
@@ -190,4 +193,3 @@ ul.nav {
     padding-top: 60px;
     padding-left: 30px;
   }
-  
