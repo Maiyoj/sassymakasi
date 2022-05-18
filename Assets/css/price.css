@@ -54,12 +54,18 @@ ul.nav {
 }
 
 .imagetext h2 {
-    color: #fff;
+    color: orange;
     padding-right: 250px;
     font-size: 64px;
     font-weight: lighter;
 }
 
+.imagetext p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 40px;
+}
 .imagebackground {
     background-image: url(/Assets/image/jeremy-bezanger-8zBi9ktYaX8-unsplash.jpg);
     background-repeat: no-repeat;
