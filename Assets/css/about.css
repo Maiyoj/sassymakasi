@@ -1,10 +1,57 @@
+section.intro {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background: #fff;
+    justify-content: space-around;
+}
+.infobox {
+    display: flex;
+    gap: 40px;
+    color: #FCB500;
+    line-height: 1.8;
+    font-size: 20px;
+}
+section.navbar {
+    display: flex;
+    height: 71px;
+    align-items: center;
+    justify-content: center;
+}
+ul.nav {
+    display: flex;
+    gap: 80px;
+    font-size: 24px;
+    background: #FCB500;
+    padding: 25px 85px 20px 90px;
+    margin-top: 60px;
+    color: #000;
+}
+.nav {
+    top: 20px;
+    position: relative;
+}
+.nav li {
+    list-style-type: none;
+}
+.logo {
+    font-size: 48px;
+    padding-right: 50%;
+}
+.logo span {
+    color: #FCB500;
+}
+
+
 .head > h1 {
-    text-align: center;
+    /* text-align: left; */
     color: #FCB500;
 }
 
 .about > h2 {
-    text-align: center;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 30px;
 }
 
 .about > h2 > a {
@@ -19,10 +66,14 @@
 
 }
 
+.history{
+    margin-top: 30px;
+}
+
 .history > h1 {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 40px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .history >h1 > a {
@@ -31,7 +82,7 @@
 }
 
 .history > h2 {
-    text-align: center;
+    text-align: left;
 }
 
 .history >h2 > a {
@@ -47,7 +98,7 @@
 
 .sal > img {
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .button1 {
@@ -59,7 +110,6 @@
     padding-left: 15px;
     border-radius: 3px;
     border-color: #FCB500;
-    margin-left: 150px;
 }
 
 .salonHist {
@@ -171,8 +221,12 @@
 
 .porto {
     background-color: whitesmoke;
-    margin-left: 50px;
+    color: whitesmoke;
+    height: 120vh;
+
+
 }
+
 .porto > h1 {
     color: #FCB500;
     text-align: center;
@@ -188,8 +242,8 @@
 .porto2-img {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 200px;
-    /* margin-top: 10px; */
+    margin-bottom: 0px;
+    /* margin-top: 50px; */
 }
 
  .braids{
@@ -202,7 +256,7 @@
     position: relative;
     bottom: 200px;
     right: 50px;
-    font-size: 30px;
+    font-size: 40px;
     right: 10px;
 }
 
@@ -285,6 +339,18 @@ li >.button {
    color: white;
 }
 
-.icons{
+/* .icons{
     padding-right: 20px;
+} */
+
+#insta {
+    padding-left: 20px;
+}
+
+#fb {
+    padding-left: 20px;
+}
+
+#twirra {
+    padding-left: 20px;
 }
