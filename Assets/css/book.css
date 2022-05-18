@@ -104,4 +104,23 @@ table{
     color: black;
     width: 40%;
     margin-left: 200px;
+    margin-top: 30px;
+    border: 20px solid  #FCB500;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form h3{
+    text-align: center;
+}
+hr{
+    
+}
+
+button{
+    padding: 15px;
+    font-size: 20px;
+    width: 150%;
 }
