@@ -1,15 +1,45 @@
+
+.header{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
     font-family: sans-serif;
+    background-color: black;
 }
 
 /* information part */
+ .body{
+
+     color: white;
+     height: 70vh;
+ }
+  .calendar{
+margin-top: 200px;
+ }
 .year{
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin-left: 400px;
     background-color: #FCB500;
-  
+    text-align: center;
+    color: black;
+
 }
 table{
     margin-left: 400px;
@@ -18,14 +48,17 @@ table{
     table-layout: fixed;
     border-collapse: collapse;
     text-align: center;
-    border: 5px solid black;
+    border: 5px solid white;
     height: 50vh;
+    background-color: white;
+    color: black;
     
   
 }
 
 .heading{
     background-color: black;
-    border: 5px solid black;
+    border: 5px solid white;
     color: white;
+
 }
