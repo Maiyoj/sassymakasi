@@ -123,3 +123,71 @@ ul.nav {
     padding-right: 30px;
     color: #FCB500
   }
+  section.footerline {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    justify-content: space-around;
+  }
+  
+  .footerline h2 {
+    font-weight: lighter;
+    font-size: 32px;
+  }
+  
+  section.footer {
+    background: #000;
+    color: #fff;
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .importantlinks {
+    padding-left: 100px;
+  }
+  
+  .newstext p {
+    font-size: 26px;
+    color: orange;
+    padding-left: 30px;
+    line-height: 1.5;
+  }
+  
+  input#email {
+    padding: 20px 30px 9px 60px;
+  }
+  
+  button {
+    padding: 17px 15px 9px 20px;
+    background: orange;
+    border: transparent;
+    color: #fff;
+    font-size: 18px;
+  }
+  ul.nav2 {
+    list-style: none;
+    line-height: 3;
+    font-size: 18px;
+    padding-right: 80px;
+  }
+  .mediaicons {
+    display: flex;
+    gap: 47px;
+    color: orange;
+  }
+  
+  .infotexts {
+    padding-top: 40px;
+    line-height: 3;
+    text-align: center;
+  }
+  
+  .contactbox {
+    padding-top: 60px;
+    padding-left: 30px;
+  }
+  
