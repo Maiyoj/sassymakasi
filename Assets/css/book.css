@@ -166,7 +166,7 @@ button{
     
 }
  .contact> li{
-     color: white;
+     color: white; 
      padding: 8px;
      list-style-type: none;
  }
