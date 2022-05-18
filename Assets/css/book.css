@@ -139,14 +139,28 @@ button{
     margin-left: 20px;
 }
 
+
+
+/* contact */
+.Footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h1{
+    color:#FCB500;
+    font-size: 30px;
+     text-align: center;
+}
 .contact{
     color: white;
+    padding:40px;
 }
  .contact> li{
      color: white;
+     padding: 20px;
  }
 
- .Footer{
-     display: flex;
-     justify-content: space-between;
- }
+
+
+ 
