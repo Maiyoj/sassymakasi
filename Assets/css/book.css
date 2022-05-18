@@ -63,7 +63,7 @@ body{
      height: 70vh;
  }
   .calendar{
-margin-top: 200px;
+margin-top: 150px;
  }
 .year{
     display: flex;
@@ -116,10 +116,9 @@ th:hover{
 /* bookings */
 
 .formfill{
-    background-color: white;
-    margin-top: 70px;
-    padding-bottom: 80px;
     display: none;
+    position: absolute;
+   margin-top: 180px;
 
 }
 h2{
@@ -130,10 +129,11 @@ h2{
 .form{
    background-color: black;
     color: white;
-    width: 40%;
-    margin-left: 500px;
-    margin-top: 30px;
+    width: 50%;
+    margin-left: 700px;
     border: 20px solid  #FCB500;
+   
+  
    
 }
 .time{
@@ -146,7 +146,7 @@ h2{
     
 }
 .hr{
-  height: 15px;  
+  height: 40px;  
   background: white;
 }
  .button{
