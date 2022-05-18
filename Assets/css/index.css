@@ -95,7 +95,7 @@ section.read:hover{
     color: blue;
 }
 .serve{
-    height: 80em;
+    height: 50em;
     background:black;
     position: relative;
     bottom: 450px;
@@ -103,7 +103,8 @@ section.read:hover{
 .container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 180px;
 }
 .services{
     width: 300px;
@@ -116,6 +117,9 @@ section.read:hover{
 .images{
     width: 100%;
     border-radius: 10px 10px 0px 0px;  
+}
+#photo{
+    padding: -5px;
 }
 .img_body h2{
     text-align: center;
@@ -152,20 +156,75 @@ section.read:hover{
 
 
 }
-.test{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 .client{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
-.client img{
+ .image{
     width: 100%;
     clip-path: circle();
+    padding: 5px;
+    position: relative;
+    top: 100px;
+    transform: translate(-150%);
+    border-radius: 80%;
+
+}.test{
+    background:white;
 }
+.test h1{
+    font-size: 5rem;
+    text-align: center;
+    color: #FCB500;
+    position: relative;
+    bottom: 400px;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+}
+.team p{
+    color:black;
+    font-size: 17px;
+    margin: 12px ;
+}
+/*.Footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 28px;
+}
+.footer{
+      margin-bottom: 80px;
+      margin-top: 80px;
+      background: black;
+  }
+.footer h1{
+    color:#FCB500;
+    font-size: 30px;
+}
+.contacthead{
+    text-align: center;
+}
+.contact{
+    color: white;
+}
+ .contact> li{
+     color: white;
+     padding: 8px;
+     list-style-type: none;
+ }
+ .contact> li a{
+   list-style-type: none;
+   text-decoration: none;
+   color: white;
+}
+.icons{
+    padding-right: 20px;
+}*/
+
 
 
 
