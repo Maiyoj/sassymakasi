@@ -145,22 +145,37 @@ button{
 .Footer{
     display: flex;
     justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 28px;
 }
 
 .footer h1{
     color:#FCB500;
     font-size: 30px;
-     text-align: center;
+    
+     
+}
+.contacthead{
+    text-align: center;
 }
 .contact{
     color: white;
-    padding:40px;
+    
 }
  .contact> li{
      color: white;
-     padding: 20px;
+     padding: 8px;
+     list-style-type: none;
  }
+ .contact> li a{ 
+   list-style-type: none;
+   text-decoration: none;
+   color: white;
+}
 
+.icons{
+    padding-right: 20px;
+}
 
 
  
