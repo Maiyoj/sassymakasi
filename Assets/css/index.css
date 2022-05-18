@@ -167,62 +167,41 @@ button {
 
 
 }
-/*
-.client{
-    width: 100px;
-    height: 100px;
-    padding: 15px;
-}
-.text1{
-    background: black;
-    border: 2px solid black;
-}
-.text2{
-    background:rgb(36, 12, 12);
-    border: 1px solid maroon;
-}
-.text3{
-    background: black;
-    border: 2px solid black;
-
-}
- .image{
-    width: 70%;
-    clip-path: circle();
-    padding: 5px;
-    position: relative;
-    bottom: 160px;
-    right: -60px;
-    transform: translate(-40%);
-    border-radius: 70%;
-
-
-}.test{
-    background:white;
-}
-.test h1{
-    font-size: 5rem;
+.test h1 {
+    font-size: 50px;
+    margin-right: 200px;
     text-align: center;
     color: #FCB500;
-    position: relative;
-    bottom: 400px;
 }
 .team{
     display: flex;
-    justify-content: center;
-    width: auto;
-    text-align: center;
+    padding: 5px;
+    gap: 70px;
+    justify-content: space-evenly;
+
 }
-.team p{
-    color:black;
-    font-size: 17px;
-    margin: 12px ;
+.image> img {
+    width: 200px;
+    padding: 20px;
+    border-radius:50px;
+    transform: translate(50%);
+    margin-top: -20px;
 }
-/*.Footer{
+.text{
+    background: #000;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border: 1px solid #000;
+    border-width: 120px;
+    color: white;
+
+}
+.Footer{
     display: flex;
     justify-content: space-between;
     margin-left: 60px;
     margin-right: 28px;
+
 }
 .footer{
       margin-bottom: 80px;
@@ -251,7 +230,7 @@ button {
 }
 .icons{
     padding-right: 20px;
-}*/
+}
 
 
 
