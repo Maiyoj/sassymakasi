@@ -93,9 +93,15 @@ table{
     height: 50vh;
     background-color: white;
     color: black;
-    
-  
 }
+   
+td:hover{
+    background-color: #FCB500;
+}
+th:hover{
+    background-color: #FCB500;
+}
+
 
 .heading{
     background-color: black;
