@@ -102,6 +102,7 @@ table{
 
 .formfill{
     background-color: white;
+  
 }
 .form{
    background-color: black;
@@ -137,3 +138,15 @@ button{
 .text{
     margin-left: 20px;
 }
+
+.contact{
+    color: white;
+}
+ .contact> li{
+     color: white;
+ }
+
+ .Footer{
+     display: flex;
+     justify-content: space-between;
+ }
