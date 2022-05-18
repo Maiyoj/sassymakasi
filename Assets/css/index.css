@@ -113,12 +113,11 @@ section.read:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
 }
 .services {
     width: 100%;
-    margin: 20px;
-    padding: 5px;
+    margin: 9px;
+    padding: 1px;
     border: solid 2px orange;
 }
 .img_body h2 {
@@ -148,17 +147,15 @@ button {
     align-items: center;
 }
 .img_footer button{
-    width: 100px;
-    background-color: #FCB500;
-    color: white;
-    border-radius: 15px;
-    border:2px solid #FCB500;
-    padding: 6px;
-    font-size: 17px;
-    cursor: pointer;
-    margin-bottom: 10px;
-
-
+        width: 114px;
+        background-color: #FCB500;
+        color: white;
+        border-radius: 15px;
+        border: 2px solid #FCB500;
+        padding: 8px;
+        font-size: 17px;
+        cursor: pointer;
+        margin-bottom: 16px;
 }
 .img_footer button:hover{
     background-color:white;
@@ -174,37 +171,36 @@ button {
     color: #FCB500;
 }
 .team{
-    display: flex;
-    padding: 5px;
-    gap: 70px;
-    justify-content: space-evenly;
-
+        display: flex;
+        padding: 7px 35px 0px 2px;
+        gap: 16px;
+        justify-content: space-evenly;
 }
-.image> img {
-    width: 200px;
-    padding: 20px;
-    border-radius:50px;
-    transform: translate(50%);
-    margin-top: -20px;
+.image >img {
+        width: 122px;
+        height: 116px;
+        border-radius: 50%;
+        transform: translateX(93px);
+        position: relative;
+        bottom: 10px;
 }
+    
 .text{
     background: #000;
     background-repeat: no-repeat;
-    background-size: 100px;
     border: 1px solid #000;
-    border-width: 120px;
+    border-width: 70px;
     color: white;
 
 }
 .Footer{
     display: flex;
     justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 28px;
-
+    margin-left: 13px;
+    margin-right: 9px;
 }
 .footer{
-      margin-bottom: 80px;
+      margin-bottom: 0px;
       margin-top: 80px;
       background: black;
   }
