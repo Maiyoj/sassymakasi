@@ -75,6 +75,12 @@ margin-top: 200px;
     color: black;
 
 }
+#left{
+    padding-left: 40px;
+}
+#right{
+    padding-right: 30px;
+}
 table{
     margin-left: 400px;
     width: 50%;
