@@ -66,3 +66,60 @@ ul.nav {
     align-items: center;
     justify-content: end;
 }
+
+.priceheader h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 48px;
+  }
+  
+  .mainbox {
+    display: flex;
+    gap: 200px;
+  }
+  
+  .box1 {
+    padding: 30px 100px 20px 100px;
+    border: solid 2px #FCB500;
+  }
+  
+  .box2 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background: #000;
+    color: #fff;
+    border: solid 1px #FCB500;
+  }
+  
+  .box2 h2 {
+    font-size: 32px;
+  }
+  
+  .box1 h2 {
+    font-size: 32px;
+  }
+  
+  .ptext {
+    line-height: 5;
+    text-align: center;
+    border: solid 2px #FCB500;
+    padding-top: 50px;
+  }
+  section.pricing {
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fa-check-circle:before, .fa-circle-check:before {
+    content: "\f058";
+    padding-right: 20px;
+    color: #FCB500
+  }
+  
+  .fa-close:before, .fa-multiply:before, .fa-remove:before, .fa-times:before, .fa-xmark:before {
+    content: "\f00d";
+    padding-right: 30px;
+    color: #FCB500
+  }
