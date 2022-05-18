@@ -241,3 +241,41 @@ li >.button {
     border-radius: 5px;
     border-color: #FCB500;
 }
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 28px;
+}
+
+.footer{
+    background-color: black;
+    margin-bottom: 500px;
+    margin-top: 80px;
+
+  }
+
+.footer h1{
+    color:#FCB500;
+    font-size: 30px;
+}
+.contacthead{
+    text-align: center;
+}
+.contact{
+    color: white;
+}
+ .contact> li{
+     color: white;
+     padding: 8px;
+     list-style-type: none;
+ }
+ .contact> li a{
+   list-style-type: none;
+   text-decoration: none;
+   color: white;
+}
+.icons{
+    padding-right: 20px;
+}
