@@ -169,6 +169,10 @@
     margin-right: 30px;
 }
 
+.porto {
+    background-color: whitesmoke;
+    margin-left: 50px;
+}
 .porto > h1 {
     color: #FCB500;
     text-align: center;
@@ -245,13 +249,13 @@ li >.button {
 .Footer{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
     margin-left: 60px;
     margin-right: 28px;
 }
 
 .footer{
     background-color: black;
-    margin-bottom: 500px;
     margin-top: 80px;
 
   }
@@ -260,22 +264,27 @@ li >.button {
     color:#FCB500;
     font-size: 30px;
 }
+
 .contacthead{
     text-align: center;
 }
+
 .contact{
     color: white;
 }
+
  .contact> li{
      color: white;
      padding: 8px;
      list-style-type: none;
  }
+
  .contact> li a{
    list-style-type: none;
    text-decoration: none;
    color: white;
 }
+
 .icons{
     padding-right: 20px;
 }
