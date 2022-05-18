@@ -106,11 +106,13 @@ table{
     background-color: white;
     margin-top: 70px;
     padding-bottom: 80px;
+    display: none;
 
 }
 h2{
     text-align: center;
     color: black;
+    padding-top: 10px;
 }
 .form{
    background-color: black;
@@ -128,9 +130,11 @@ h2{
 
 .form h3{
     text-align: center;
-}
-hr{
     
+}
+.hr{
+  height: 15px;  
+  background: white;
 }
  .button{
      margin-right: 60px;
