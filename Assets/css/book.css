@@ -104,13 +104,19 @@ table{
 
 .formfill{
     background-color: white;
-  
+    margin-top: 70px;
+    padding-bottom: 80px;
+
+}
+h2{
+    text-align: center;
+    color: black;
 }
 .form{
    background-color: black;
     color: white;
     width: 40%;
-    margin-left: 200px;
+    margin-left: 500px;
     margin-top: 30px;
     border: 20px solid  #FCB500;
    
@@ -152,7 +158,7 @@ button{
 }
   .footer{
       margin-bottom: 80px;
-      margin-top: 80px;
+      margin-top: 90px;
   }
 .footer h1{
     color:#FCB500;
@@ -188,7 +194,4 @@ button{
 #twitter{
     padding-left: 20px;
 }
- .detail{
-color: white;
-background-color: blue;
- }
+ 
