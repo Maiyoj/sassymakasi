@@ -99,13 +99,18 @@ table{
 }
 
 /* Css */
+
+.formfill{
+    background-color: white;
+}
 .form{
-   background-color: white;
-    color: black;
+   background-color: black;
+    color: white;
     width: 40%;
     margin-left: 200px;
     margin-top: 30px;
     border: 20px solid  #FCB500;
+   
 }
 .time{
     display: flex;
@@ -118,9 +123,17 @@ table{
 hr{
     
 }
-
+ .button{
+     margin-right: 60px;
+ }
 button{
     padding: 15px;
     font-size: 20px;
     width: 150%;
+    background-color: #FCB500;
+    color: white;
+}
+
+.text{
+    margin-left: 20px;
 }
