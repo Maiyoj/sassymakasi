@@ -100,7 +100,7 @@ table{
     background-color: white;
 }
 
-/* Css */
+/* bookings */
 
 .formfill{
     background-color: white;
@@ -188,4 +188,7 @@ button{
 #twitter{
     padding-left: 20px;
 }
- 
+ .detail{
+color: white;
+background-color: blue;
+ }
