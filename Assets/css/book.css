@@ -1,7 +1,7 @@
 
 .header{
     background-color: white;
-    height: 10vh;
+    height: 15vh;
 }
 
 .information{
@@ -10,10 +10,18 @@ justify-content: space-between;
 color:#FCB500;
 }
 .info{
-    margin-left: 980px;
+    margin-left: 990px;
 }
 .number{
-    margin-right: 70px;
+    margin-right: 60px;
+}
+.logo{
+    font-size: 30px;
+   margin-top: 10px;
+   margin-left: 30px;
+}
+.logo span{
+    color: black;
 }
 .list{
     background-color: #FCB500;
@@ -38,13 +46,6 @@ ul li a{
     text-decoration: none;
     color: black;
 }
-
-
-
-
-
-
-
 
 
 
@@ -92,4 +93,7 @@ table{
     border: 5px solid white;
     color: white;
 
+}
+.color{
+    background-color: white;
 }
