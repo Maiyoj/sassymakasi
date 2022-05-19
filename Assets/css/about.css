@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 section.intro {
     display: flex;
     height: 150px;
@@ -18,11 +16,10 @@ section.intro {
     gap: 40px;
     color: #FCB500;
     line-height: 1.8;
-    font-size: 17px;
+    font-size: 20px;
 }
-
 section.navbar {
-    display:flex;
+    display: flex;
     height: 71px;
     align-items: center;
     justify-content: center;
@@ -30,29 +27,35 @@ section.navbar {
 ul.nav {
     display: flex;
     gap: 80px;
-    font-size: 15px;
+    font-size: 24px;
     background: #FCB500;
     padding: 25px 85px 20px 90px;
     margin-top: 60px;
     color: #000;
 }
-.nav {
-    top: 20px;
-    position: relative;
+.nav li a {
+   text-decoration: none;
+   color: #000;
+}
+.nav li:hover{
+   text-decoration: none;
+   background: #000;
+   transition: 0.90s;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: #FCB500;
 }
 .nav li {
     list-style-type: none;
 }
 .logo {
-    font-size: 30px;
-    margin-left: 40px;
+    font-size: 48px;
     padding-right: 50%;
 }
 .logo span {
     color: #FCB500;
 }
-
-
 .head > h1 {
     /* text-align: left; */
     color: #FCB500;
@@ -92,6 +95,7 @@ ul.nav {
 .history >h1 > a {
     text-decoration: none;
     color: #FCB500;
+    margin-left: 30px;
 }
 
 .history > h2 {
@@ -99,6 +103,7 @@ ul.nav {
     font-size: 30px;
     font-weight: lighter;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .history >h2 > a {
@@ -109,7 +114,7 @@ ul.nav {
 .history >  p {
     color: white;
     font-size: 24px;
-    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
@@ -125,6 +130,7 @@ ul.nav {
     padding-bottom: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    margin-left: 30px;
     border-radius: 3px;
     border-color: #FCB500;
 }
