@@ -6,13 +6,6 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-@media only screen and (max-width: 1240px) {
-body {
-    background-color: red;
-    }
-}
-
-
 section.intro {
     display: flex;
     min-height: 150px;
@@ -79,27 +72,17 @@ ul.nav {
     display: flex;
     align-items: center;
 }
-section.header {
+.header {
     display: flex;
     align-items: center;
     height: 800px;
     justify-content: space-around;
-
-}.intro2 {
-    position: relative;
-    bottom: 20px;
-    right: 7px
 }
-
 .intro2 img {
     max-width: 400px;
     margin-left: 60px;
 } 
-.welcome{
-    position: relative;
-    bottom: 20px;
-    
-}
+
 .welcome h1{
         color: #FCB500;
         font-size: 48px;
@@ -128,8 +111,6 @@ section.read:hover{
 }
 .serve{
     min-height: 32em;
-    position: relative;
-    bottom: 40px;
     background-color: #000;
 }
 
@@ -263,7 +244,6 @@ button {
 .icons{
     padding-right: 20px;
 }
-@media(max-width:1280px){}
 
 #facebook{
     margin-left: 20px;
@@ -271,6 +251,41 @@ button {
 #twitter{
 margin-left: 20px;
 }
-
-
-
+@media screen and (max-width:600px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        padding-left: 50%;
+    }
+}
+@media screen and(max-width:600px){
+    .imagebackground{
+        text-align: center;
+        font-size: 10px;
+    }
+    .imagebackground img{
+        padding-left: 800px
+    }    
+}   
+@media(max-width:600px){
+    .header{
+        display:flex;
+        flex-direction: column;
+    }
+    .intro2 img {
+        width: 50%;
+        margin-left: 50px;
+    } 
+    .welcome{
+        font-size: 0.5rem;
+        margin-left: 30px;
+    }
+}
+@media(max-widht:600px){
+    .serve{
+        display: flex;
+        flex-direction: column;
+    }
+}
