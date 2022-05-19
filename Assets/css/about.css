@@ -84,6 +84,7 @@ ul.nav {
     /* text-align: center; */
     margin-top: 40px;
     margin-right: 100px;
+    margin-bottom: 20px;
 }
 
 .history >h1 > a {
@@ -93,6 +94,7 @@ ul.nav {
 
 .history > h2 {
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .history >h2 > a {
@@ -104,6 +106,7 @@ ul.nav {
     color: white;
     font-size: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .sal > img {
@@ -308,7 +311,6 @@ ul.nav {
     font-size: 20px;
     color: white;
     background: #FCB500;
-    margin-bottom: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
@@ -318,35 +320,29 @@ ul.nav {
     cursor: pointer;
 }
 
-#butown:hover {
-    background-color: red;
-}
-
-#butown:focus {
-    background-color: #FCB500;
-}
-
 .Footer{
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
     margin-left: 60px;
     margin-right: 28px;
 }
 
 .footer{
     background-color: black;
-    height: 60vh;
-    margin-top: 1000px;
-    display: flex;
+    /* display: flex; */
 
   }
 
 .footer h1{
     color:#FCB500;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
+.footer p{
+    margin-bottom: 20px;
+}
 .contacthead{
     text-align: center;
     margin-top: 30px;
