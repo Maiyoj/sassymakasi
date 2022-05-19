@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="/Assets/css/about.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css">
     </head>
-    <!--header-->
+    <!--head-->
     <section class="intro">
         <div class="logo">Sassy<span>Makasi</span></div>
         <div class="infobox">
@@ -27,10 +27,11 @@
             <li a href="#">Home</li>
             <li a href="#">About</li>
             <li a href="#">Pricing</li>
-            <li a href="#">Booking</li>
+            <li a href="">Booking</li>
         </ul>
     </section>
     <body>
+
         <!--About us-->
         <div class="about" id="sasbout">
                     <div class="salonHist">
@@ -41,7 +42,8 @@
                             <h1><a href="#">History</a></h1>
                             <h2><a href="#">Welcome To Our Salon</a></h2>
                             <p>SassyMakasi is an online booking platform <br> curated for hair making, nail and beauty salon <br> services. Our platform aims at giving customers easy time <br> through appointment schedules in the website thus <br> giving them a right to be served at their pleasure.</p>
-                            <button class="button1">Read More</button>
+                            <button id="butown" type="button" name=""   onclick = "myFunction()">Read More</button>
+                            <!-- <input type="button" name="" value="button" id="butn" onclick="check()"> -->
                         </div>
                     </div>
 
@@ -53,7 +55,7 @@
                 <div class="theTeam1">
 
                 <div class="Rodney">
-                    <img src="/Assets/image/team1.jpg" alt="Rodney barber" height="220">
+                    <img src="/Assets/image/team1.jpg" alt="Rodney barber" height="190">
                     <p>Rodney Kim <br> <span style="color: white;">Make up Barber</span></p>
                 </div>
 
@@ -63,7 +65,7 @@
                 </div>
 
                 <div class="Katlyne">
-                    <img src="/Assets/image/team3.jpg" alt="Katlyne Jay" height="190">
+                    <img src="/Assets/image/team3.jpg" alt="Katlyne Jay" height="200">
                     <p>Katlyne Jay <br> <span style="color: white;">Pedicurist</span></p>
                 </div>
                 </div>
@@ -75,12 +77,12 @@
                 </div>
 
                 <div class="Lisa">
-                    <img src="/Assets/image/team5.jpg" alt="Lisa Alade" height="190">
+                    <img src="/Assets/image/team5.jpg" alt="Lisa Alade" height="200">
                     <p>Lisa Alade <br> <span style="color: white;">Manager</span></p>
                 </div>
 
                 <div class="Jane">
-                    <img src="/Assets/image/team6.jpg" alt="Ann Waithera" width="300" height="180">
+                    <img src="/Assets/image/team6.jpg" alt="Ann Waithera" width="250" height="180">
                     <p>Ann WAithera <br> <span style="color: white;">Masseuse</span></p>
                 </div>
             </div>
@@ -115,7 +117,7 @@
 
                  <div class="smile">
                      <img src="/Assets/image/cut2.jpg" alt="smile" height="220">
-                     <li><button class="button">View More</button></li>
+                     <li><button id="button" onclick="myButton">View More</button></li>
                  </div>
 
                  <div class="cut1">
@@ -127,7 +129,7 @@
         </div>
         </div>
         
-    </body>
+    
     <!--footer-->
     <section class="footer">
         <div class="contacthead">
@@ -162,4 +164,6 @@
             <p>location</p>
         </div>
         </section>
+        <script src="/Assets/js/index.js"></script>
+    </body>
     </html>

@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
 section.intro {
     display: flex;
     height: 150px;
@@ -10,10 +18,11 @@ section.intro {
     gap: 40px;
     color: #FCB500;
     line-height: 1.8;
-    font-size: 20px;
+    font-size: 17px;
 }
+
 section.navbar {
-    display: flex;
+    display:flex;
     height: 71px;
     align-items: center;
     justify-content: center;
@@ -21,7 +30,7 @@ section.navbar {
 ul.nav {
     display: flex;
     gap: 80px;
-    font-size: 24px;
+    font-size: 15px;
     background: #FCB500;
     padding: 25px 85px 20px 90px;
     margin-top: 60px;
@@ -35,7 +44,8 @@ ul.nav {
     list-style-type: none;
 }
 .logo {
-    font-size: 48px;
+    font-size: 30px;
+    margin-left: 40px;
     padding-right: 50%;
 }
 .logo span {
@@ -93,7 +103,7 @@ ul.nav {
 .history >  p {
     color: white;
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .sal > img {
@@ -101,7 +111,7 @@ ul.nav {
     margin-top: 100px;
 }
 
-.button1 {
+#butown {
     color: white;
     background: #FCB500;
     padding-top: 5px;
@@ -179,6 +189,7 @@ ul.nav {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    margin-left: 10px;
 }
 
 .Ann {
@@ -206,6 +217,7 @@ ul.nav {
     background-color: rgb(29, 25, 25);
     margin-right: 40px;
     padding-top: 10px;
+    margin-right: 40px;
     padding-bottom: 10px;
     text-align: center;
 }
@@ -221,8 +233,10 @@ ul.nav {
 
 .porto {
     background-color: whitesmoke;
+    margin-bottom: 50px;
     color: whitesmoke;
     height: 120vh;
+    margin-left: 50px;
 
 
 }
@@ -235,13 +249,13 @@ ul.nav {
 
 .porto1-img {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 70px;
 }
 
 .porto2-img {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 0px;
     /* margin-top: 50px; */
 }
@@ -252,6 +266,7 @@ ul.nav {
 }
 
 .braids p {
+    color: #000;
     text-align: center;
     position: relative;
     bottom: 200px;
@@ -265,6 +280,7 @@ ul.nav {
 }
  
 .haircut-braids p{
+    color: #000;
     text-align: center;
     position: relative;
     bottom: 150px;
@@ -288,29 +304,41 @@ ul.nav {
     color: white;
 }
 
-li >.button {
+#button {
     font-size: 20px;
     color: white;
     background: #FCB500;
+    margin-bottom: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
     border-color: #FCB500;
+    cursor: pointer;
+}
+
+#butown:hover {
+    background-color: red;
+}
+
+#butown:focus {
+    background-color: #FCB500;
 }
 
 .Footer{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     margin-left: 60px;
     margin-right: 28px;
 }
 
 .footer{
     background-color: black;
-    margin-top: 80px;
+    height: 60vh;
+    margin-top: 1000px;
+    display: flex;
 
   }
 
@@ -321,6 +349,8 @@ li >.button {
 
 .contacthead{
     text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .contact{
@@ -353,4 +383,55 @@ li >.button {
 
 #twirra {
     padding-left: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .intro{
+    flex-direction: column;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 70px;
+    }
+
+    .salonHist{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .history{
+        padding: 0px 60px 0px 0px;
+    }
+    .theTeam1, .theTeam2 {
+        flex-direction: column;
+    }
+
+    .thePorto{
+        /* display: flex; */
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .porto1-img, .porto2-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
 }
