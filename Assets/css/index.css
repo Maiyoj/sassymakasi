@@ -181,7 +181,6 @@ button {
         background-color: #FCB500;
         color: white;
         border-radius: 15px;
-        border: 2px solid #FCB500;
         padding: 8px;
         font-size: 17px;
         cursor: pointer;
@@ -190,7 +189,6 @@ button {
 .img_footer button:hover{
     background-color:white;
     color: black;
-    border: 2px solid #FCB500;
 
 
 }
