@@ -290,8 +290,11 @@ ul li a:hover {
    .links{
     padding-top: 50px;
   }
-  .navbar{
-   padding-top: 50px;
+  ul.nav{
+    flex-direction: column;
+    
+
+
  }
 }
 
