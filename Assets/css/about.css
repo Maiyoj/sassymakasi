@@ -33,6 +33,10 @@ ul.nav {
     margin-top: 60px;
     color: #000;
 }
+
+.working > a{
+    font-size: 16px;
+}
 .nav li a {
    text-decoration: none;
    color: #000;
