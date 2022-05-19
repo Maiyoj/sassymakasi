@@ -6,10 +6,6 @@ function  calendar(){
    
 }
 
-function  out(){
-    form.style.display = "none";
-}
-
 function book(){
-
+    window.open("/Ass")
 }
