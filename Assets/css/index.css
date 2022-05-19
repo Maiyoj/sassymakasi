@@ -81,8 +81,8 @@ ul li a:hover {
 .header {
     display: flex;
     align-items: center;
-    height: 800px;
     justify-content: space-around;
+    margin-top:20px;
 }
 .intro2 img {
     max-width: 400px;
@@ -118,6 +118,11 @@ section.read:hover{
 .serve{
     min-height: 32em;
     background-color: #000;
+}
+.serve h1{
+    font-weight:lighter;
+    padding-top:48px;
+
 }
 
 .serve h1{
@@ -257,7 +262,7 @@ button {
 #twitter{
 margin-left: 20px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:1000px){
     .intro{
         display: flex;
         flex-direction: column;
@@ -266,7 +271,7 @@ margin-left: 20px;
         padding-left: 50%;
     }
 }
-@media screen and(max-width:600px){
+@media screen and(max-width:1000px){
     .imagebackground{
         text-align: center;
         font-size: 10px;
@@ -275,7 +280,7 @@ margin-left: 20px;
         padding-left: 800px
     }    
 }   
-@media(max-width:600px){
+@media screen and(max-width:1000px){
     .header{
         display:flex;
         flex-direction: column;
@@ -292,7 +297,7 @@ margin-left: 20px;
         font-size: 20px;
     }
 }
-@media(max-width:600px){
+@media screen and (max-width:1000px){
     .serve{
         display: grid;
     }
