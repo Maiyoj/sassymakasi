@@ -276,16 +276,25 @@ margin-left: 20px;
     }
     .intro2 img {
         width: 50%;
-        margin-left: 50px;
     } 
     .welcome{
         font-size: 0.5rem;
-        margin-left: 30px;
+        margin-left: 2px;
+
+    }
+    .welcome h1{
+        font-size: 20px;
     }
 }
-@media(max-widht:600px){
+@media(max-width:600px){
     .serve{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+    }
+    .services{
+        max-width: 50%;
+        margin: 5px;
+    }
+    .images #photo{
+        width: 100%;
     }
 }
