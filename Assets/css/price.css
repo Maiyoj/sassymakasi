@@ -48,7 +48,7 @@ ul.nav {
 .nav li:hover{
   text-decoration: none;
   background: #000;
-
+  transition: 0.90s;
 }
 ul li a:hover {
   text-decoration: none;
@@ -219,4 +219,80 @@ ul li a:hover {
     text-decoration: none;
     color: #FCB500
   }
+
+  @media screen and (max-width: 600px) {
+    .intro {
+      display: flex;
+      flex-direction: column;
+    }
+    .logo{
+      padding-left: 50%;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .imagebackground, .imagebackground h2{
+      text-align: center;
+      font-size: 22px;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+.imagebackground h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .mainbox{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1200px;
+  }
   
+  }
+
+  @media screen and (max-width: 600px) {
+    .pricing{
+      padding-top: 330px;
+    }
+}
+
+    @media screen and (max-width: 600px) {
+      .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top:256px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+  .footerline{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1550px;
+    padding: 114px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactbox{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+   .links{
+    padding-top: 50px;
+  }
+  .navbar{
+   padding-top: 50px;
+ }
+}
+
+
