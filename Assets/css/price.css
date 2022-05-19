@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+section.intro {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background: #fff;
+    justify-content: space-around;
+}
+
+.infobox {
+    display: flex;
+    gap: 40px;
+    color: #FCB500;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+section.navbar {
+    display: flex;
+    height: 71px;
+    align-items: center;
+    justify-content: center;
+}
+ul.nav {
+    display: flex;
+    gap: 80px;
+    font-size: 24px;
+    background: #FCB500;
+    padding: 25px 85px 20px 90px;
+    margin-top: 60px;
+    color: #000;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav li:hover{
+  text-decoration: none;
+  background: #000;
+  transition: 0.90s;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: #FCB500;
+}
+.nav li {
+    list-style-type: none;
+}
+
+.logo {
+    font-size: 48px;
+    padding-right: 50%;
+}
+
+.logo span {
+    color: #FCB500;
+}
+
+.imagetext h2 {
+    color: orange;
+    padding-right: 250px;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+.imagetext p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 40px;
+}
+.imagebackground {
+    background-image: url(/Assets/image/jeremy-bezanger-8zBi9ktYaX8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.priceheader h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 48px;
+  }
+  
+  .mainbox {
+    display: flex;
+    gap: 200px;
+  }
+  
+  .box1 {
+    padding: 30px 100px 20px 100px;
+    border: solid 2px #FCB500;
+  }
+  
+  .box2 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background: #000;
+    color: #fff;
+    border: solid 1px #FCB500;
+  }
+  
+  .box2 h2 {
+    font-size: 32px;
+  }
+  
+  .box1 h2 {
+    font-size: 32px;
+  }
+  
+  .ptext {
+    line-height: 5;
+    text-align: center;
+    border: solid 2px #FCB500;
+    padding-top: 50px;
+  }
+  section.pricing {
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fa-check-circle:before, .fa-circle-check:before {
+    content: "\f058";
+    padding-right: 20px;
+    color: #FCB500
+  }
+  
+  .fa-close:before, .fa-multiply:before, .fa-remove:before, .fa-times:before, .fa-xmark:before {
+    content: "\f00d";
+    padding-right: 30px;
+    color: #FCB500
+  }
+  section.footerline {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    justify-content: space-around;
+  }
+  
+  .footerline h2 {
+    font-weight: lighter;
+    font-size: 32px;
+  }
+  
+  section.footer {
+    background: #000;
+    color: #fff;
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .importantlinks {
+    padding-left: 100px;
+  }
+  
+  .newstext p {
+    font-size: 26px;
+    color: orange;
+    padding-left: 30px;
+    line-height: 1.5;
+  }
+  
+  input#email {
+    padding: 20px 30px 9px 60px;
+  }
+  
+  button {
+    padding: 17px 15px 9px 20px;
+    background: orange;
+    border: transparent;
+    color: #fff;
+    font-size: 18px;
+  }
+  ul.nav2 {
+    list-style: none;
+    line-height: 3;
+    font-size: 18px;
+    padding-right: 80px;
+  }
+  .mediaicons {
+    display: flex;
+    gap: 47px;
+    color: orange;
+  }
+  
+  .infotexts {
+    padding-top: 40px;
+    line-height: 3;
+    text-align: center;
+    color: #FCB500;
+  }
+  
+  .contactbox {
+    padding-top: 60px;
+    padding-left: 30px;
+  }
+
+  .nav2 li a {
+    text-decoration: none;
+    color: #FCB500
+  }
+
+  @media screen and (max-width: 600px) {
+    .intro {
+      display: flex;
+      flex-direction: column;
+    }
+    .logo{
+      padding-left: 50%;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .imagebackground, .imagebackground h2{
+      text-align: center;
+      font-size: 22px;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+.imagebackground h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .mainbox{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1200px;
+  }
+  
+  }
+
+  @media screen and (max-width: 600px) {
+    .pricing{
+      padding-top: 330px;
+    }
+}
+
+    @media screen and (max-width: 600px) {
+      .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top:256px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+  .footerline{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1550px;
+    padding: 114px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactbox{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+   .links{
+    padding-top: 50px;
+  }
+  .navbar{
+   padding-top: 50px;
+ }
+}
+
+
