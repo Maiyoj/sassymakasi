@@ -3,6 +3,15 @@
     background-color: white;
     height: 15vh;
 }
+@media only screen and (max-width: 1300px) {
+    .header{
+    height: 20vh;
+    width: 150%;
+
+    }
+
+}
+
 .number i{
 color: black;
 }
@@ -13,6 +22,17 @@ color:#FCB500;
 }
 .info{
     margin-left: 990px;
+}
+
+@media only screen and (max-width: 1300px) {
+.info{
+    
+    height: 20vh;
+    margin-left: 20px;
+    padding-right: 20px;
+ 
+    }
+
 }
 .number{
     margin-right: 60px;
@@ -31,11 +51,34 @@ color:#FCB500;
     margin-left: 200px;
     position: absolute;
 }
+
+
+
+@media only screen and (max-width: 1300px) {
+    .list{
+        margin-left: 2px;
+        width:100%;
+        font-size: 10px;
+        overflow: hidden;
+        font-size: 8px;
+     
+        }
+    
+    }
   ul{
       display: flex;
       justify-content: space-between;
   }
     
+
+@media only screen and (max-width: 1300px) {
+    ul{
+        
+      padding-right: 10px;
+      justify-content: none;
+        }
+    
+    }
 
 ul li{
     list-style: none;
@@ -76,6 +119,19 @@ margin-top: 150px;
     font-size: 40px;
 
 }
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    .year{
+       
+        margin-left: 80px;
+        width:60%;
+        font-size: 14px;
+        }
+    
+    }
 #left{
     padding-left: 40px;
 }
@@ -94,6 +150,19 @@ table{
     background-color: white;
     color: black;
 }
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    table{
+        height: 20vh;
+        margin-left: 80px;
+        width:60%;
+        font-size: 10px;
+        }
+    
+    }
    
 td:hover{
     background-color: #FCB500;
@@ -119,8 +188,9 @@ th:hover{
     display: none;
     position: absolute;
    margin-top: 180px;
-
 }
+
+
 h2{
     text-align: center;
     color: black;
@@ -131,11 +201,17 @@ h2{
     color: white;
     width: 50%;
     margin-left: 700px;
-    border: 20px solid  #FCB500;
-   
-  
-   
+    border: 20px solid  #FCB500; 
 }
+@media only screen and (max-width: 1300px) {
+    .form{
+        margin-left: 100px;
+        width:100%;
+        font-size: 10px;
+
+        }
+    
+    }
 .time{
     display: flex;
     justify-content: space-between;
@@ -173,16 +249,40 @@ button{
     margin-left: 60px;
     margin-right: 28px;
 }
+
+@media only screen and (max-width: 1300px) {
+    .Footer{
+        margin-left: 10px;
+        width:100%;
+        font-size: 10px;
+        
+        }
+    }
   .footer{
       margin-bottom: 80px;
       margin-top: 90px;
   }
+
+  @media only screen and (max-width: 1300px) {
+    .footer{
+        margin-top: 30px;
+       
+        
+        }
+    }
+    
 .footer h1{
     color:#FCB500;
-    font-size: 30px;
- 
-     
+    font-size: 30px;  
 }
+
+@media only screen and (max-width: 1300px) {
+    .footer h1{
+      font-size: 8px;
+       
+        }
+    }
+    
 .contacthead{
     text-align: center;
 }
