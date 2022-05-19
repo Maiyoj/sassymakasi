@@ -81,7 +81,7 @@ ul li a:hover {
     padding-top: 40px;
 }
 .imagebackground {
-    background-image: url(/Assets/image/jeremy-bezanger-8zBi9ktYaX8-unsplash.jpg);
+    background-image: url(../image/jeremy-bezanger-8zBi9ktYaX8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 74vh;
