@@ -8,18 +8,17 @@
 }
 section.intro {
     display: flex;
-    min-height: 150px;
+    height: 150px;
     align-items: center;
     background: #fff;
     justify-content: space-around;
-    
 }
 .infobox {
     display: flex;
     gap: 40px;
     color: #FCB500;
     line-height: 1.8;
-    font-size: 15px;
+    font-size: 20px;
 }
 section.navbar {
     display: flex;
@@ -27,12 +26,6 @@ section.navbar {
     align-items: center;
     justify-content: center;
 }
-.location{
-    margin-right: 50px;
-   
- 
-}
-
 ul.nav {
     display: flex;
     gap: 80px;
@@ -41,6 +34,19 @@ ul.nav {
     padding: 25px 85px 20px 90px;
     margin-top: 60px;
     color: #000;
+}
+.nav li a {
+  text-decoration: none;
+  color: #000;
+}
+.nav li:hover{
+  text-decoration: none;
+  background: #000;
+  transition: 0.90s;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: #FCB500;
 }
 .nav li {
     list-style-type: none;
