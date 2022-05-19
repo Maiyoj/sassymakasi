@@ -314,7 +314,6 @@ button{
     padding-left: 20px;
 }
  
-
 .userDetails .form{
 
     background-color: black;
@@ -329,6 +328,7 @@ button{
     margin-top: 150px;
     background-color: white;
     color: black;
+    
 }
 
 .userDetails input{
