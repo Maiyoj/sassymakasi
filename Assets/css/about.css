@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.intro {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background: #fff;
+    justify-content: space-around;
+}
+.infobox {
+    display: flex;
+    gap: 40px;
+    color: #FCB500;
+    line-height: 1.8;
+    font-size: 20px;
+}
+section.navbar {
+    display: flex;
+    height: 71px;
+    align-items: center;
+    justify-content: center;
+}
+ul.nav {
+    display: flex;
+    gap: 80px;
+    font-size: 24px;
+    background: #FCB500;
+    padding: 25px 85px 20px 90px;
+    margin-top: 60px;
+    color: #000;
+}
+.nav li a {
+   text-decoration: none;
+   color: #000;
+}
+.nav li:hover{
+   text-decoration: none;
+   background: #000;
+   transition: 0.90s;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: #FCB500;
+}
+.nav li {
+    list-style-type: none;
+}
+.logo {
+    font-size: 48px;
+    padding-right: 50%;
+}
+.logo span {
+    color: #FCB500;
+}
+.head > h1 {
+    /* text-align: left; */
+    color: #FCB500;
+}
+
+.about > h2 {
+    text-align: left;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.about > h2 > a {
+    text-decoration: none;
+    color: #FCB500;
+}
+
+.salonHist {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+}
+
+.history{
+    margin-top: 30px;
+}
+
+.history > h1 {
+    /* text-align: center; */
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.history >h1 > a {
+    text-decoration: none;
+    color: #FCB500;
+    margin-left: 30px;
+}
+
+.history > h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.history >h2 > a {
+    text-decoration: none;
+    color: #FCB500;
+}
+
+.history >  p {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sal > img {
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+#butown {
+    color: white;
+    background: #FCB500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 30px;
+    border-radius: 3px;
+    border-color: #FCB500;
+}
+
+.salonHist {
+    background-color: rgb(48, 41, 41);
+    /* margin-right: 150px; */
+    margin-left: 50px;
+    padding-bottom: 80px;
+}
+
+.ourTeam{
+    background-color: rgb(53, 48, 48);
+    /* margin-right: 150px; */
+    margin-left: 50px;
+    height: 900px;
+}
+.ourTeam > h1 {
+    text-align: center;
+    color: #FCB500;
+    padding-top: 40px;
+}
+
+.ourTeam > h1 > a {
+    text-decoration: none;
+    color: #FCB500;
+}
+
+.ourTeam > h2 {
+    text-align: center;
+    color: #FCB500;
+    padding-top: 20px;
+}
+
+.theTeam1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+
+.theTeam2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.Rodney {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Jenner {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.Katlyne {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.Ann {
+    margin-right: 50px;
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Ann > p {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.Lisa {
+    margin-right: 50px;
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    margin-right: 40px;
+    padding-top: 10px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Jane {
+    color: #FCB500;
+    background-color: rgb(29, 25, 25);
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.porto {
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    /* height: 120vh; */
+    margin-left: 50px;
+
+
+}
+
+.porto > h1 {
+   color: #FCB500;
+   text-align: center;
+   margin-top: 51px;
+   font-size: 36px;
+   font-weight: lighter;
+ }
+
+
+.porto1-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.porto2-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    /* margin-top: 50px; */
+}
+
+ .braids{
+    bottom: -150;
+    opacity: 0.6;
+}
+
+.braids p {
+    color: #000;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+    font-size: 40px;
+    right: 10px;
+}
+
+.haircut-braids {
+    position: relative;
+}
+ 
+.haircut-braids p{
+    color: #000;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    right: 20px;
+    font-size: 30px;
+
+}
+
+.porto1-img > .haircut-braids img{
+   opacity: 0.5;
+}
+
+.smile {
+    margin-top: 80px;
+}
+
+.smile > li{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#button {
+    font-size: 20px;
+    color: white;
+    background: #FCB500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 28px;
+}
+
+.footer{
+    background-color: black;
+    /* display: flex; */
+
+  }
+
+.footer h1{
+    color:#FCB500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    margin-bottom: 20px;
+}
+.contacthead{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.contact{
+    color: white;
+}
+
+ .contact> li{
+     color: white;
+     padding: 8px;
+     list-style-type: none;
+ }
+
+ .contact> li a{
+   list-style-type: none;
+   text-decoration: none;
+   color: white;
+}
+
+/* .icons{
+    padding-right: 20px;
+} */
+
+#insta {
+    padding-left: 20px;
+}
+
+#fb {
+    padding-left: 20px;
+}
+
+#twirra {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .intro{
+    flex-direction: column;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 70px;
+    }
+
+    .salonHist{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .history{
+        padding: 0px 60px 0px 0px;
+    }
+    .theTeam1, .theTeam2 {
+        flex-direction: column;
+    }
+
+    .thePorto{
+        /* display: flex; */
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .porto1-img, .porto2-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+}
