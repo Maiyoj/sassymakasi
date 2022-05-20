@@ -137,14 +137,12 @@ ul li a:hover {
 
 .salonHist {
     background-color: rgb(48, 41, 41);
-    /* margin-right: 150px; */
     margin-left: 50px;
     padding-bottom: 80px;
 }
 
 .ourTeam{
-    background-color: rgb(53, 48, 48);
-    /* margin-right: 150px; */
+    background-color: white;
     margin-left: 50px;
     height: 900px;
 }
@@ -241,6 +239,7 @@ ul li a:hover {
     padding-bottom: 2px;
     text-align: center;
     margin-right: 30px;
+   
 }
 
 .porto {
@@ -248,7 +247,7 @@ ul li a:hover {
     margin-bottom: 50px;
     color: whitesmoke;
     /* height: 120vh; */
-    margin-left: 50px;
+    margin-left: 100px;
 
 
 }
@@ -265,7 +264,7 @@ ul li a:hover {
 .porto1-img {
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .porto2-img {
