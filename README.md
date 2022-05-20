@@ -7,7 +7,7 @@
    
 
 ## Screenshot
- ![image](./Assets/images/screen.png)
+ ![image](./Assets/image/screen.png)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
@@ -52,7 +52,7 @@ by booking through a form                     |  Click on date                  
 * run the index.html file.
 
 ### Live Link
-
+https://maiyoj.github.io/sassymakasi/
 ### Figma Link
 
  https://www.figma.com/file/ZR6sb4GCtaMsGiE9CyaSEc/Untitled?node-id=0%3A1
@@ -63,7 +63,7 @@ by booking through a form                     |  Click on date                  
 * Javascript - Used to add interactive behaviour to the page.
 
 ## Known Bugs
-* Sumissions of the the form is not successful
+* Submissions of the the form is not successful
 ## Licence
 MIT License
 
