@@ -73,14 +73,14 @@ ul li a:hover {
 }
 
 .salonHist {
+    background-color: rgb(48, 41, 41);
     display: flex;
-    justify-content: space-between;
-    padding: 0px;
-
+    justify-content: space-around;
+    height: 750px;
 }
 
 .history{
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .history > h1 {
@@ -126,13 +126,14 @@ ul li a:hover {
 #butown {
     color: white;
     background: #FCB500;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-left: 30px;
     border-radius: 3px;
     border-color: #FCB500;
+    margin-top: 40px;
 }
 
 .salonHist {
@@ -242,6 +243,13 @@ ul li a:hover {
    
 }
 
+.thePorto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+}
+
 .porto {
     background-color: whitesmoke;
     margin-bottom: 50px;
@@ -253,25 +261,22 @@ ul li a:hover {
 }
 
 .porto > h1 {
-   color: #FCB500;
-   text-align: center;
-   margin-top: 51px;
-   font-size: 36px;
-   font-weight: lighter;
- }
+    color: #FCB500;
+    text-align: center;
+    margin-top: 51px;
+    font-size: 36px;
+    font-weight: lighter;
+    padding-top: 60px;
+}
 
-
-.porto1-img {
+ .porto1-img {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: space-around;
 }
 
 .porto2-img {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 0px;
-    /* margin-top: 50px; */
+    justify-content: space-around;
 }
 
  .braids{
@@ -329,7 +334,7 @@ ul li a:hover {
     border-radius: 5px;
     border-color: transparent;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 60px;
 
 }
 

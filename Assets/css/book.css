@@ -331,6 +331,15 @@ button{
     
 }
 
+@media only screen and (max-width: 1300px) {
+    .userDetails .form{
+    margin-left: 10px;
+    width: 60%;
+       
+        }
+    }
+
+
 .userDetails input{
     padding: 20px;
     margin-bottom: 30px;
@@ -362,5 +371,4 @@ padding-bottom: 20px;
         width: 30%;
         margin-left: 150px;
     }
-    
-   
+  
